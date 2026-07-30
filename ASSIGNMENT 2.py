@@ -65,13 +65,13 @@ if __name__ == "__main__":
     print("\n")
     print(f"Report Length: {len(student_report)}")
 
-    # same_report = Report.student_template(
-    #     author="Sushma",
-    #     content="Marks : 95\nGrade : A",
-    #     date=student_report.date,
-    # )
-    # # __eq__
-    # print(student_report == same_report)
+    same_report = Report.student_template(
+        author="Sushma",
+        content="Marks : 95\nGrade : A",
+        date=student_report.date)
+    # __eq__
+    print("\n")
+    print(student_report == same_report)
 
     print("\n")
     print(generate_report(student_report))
