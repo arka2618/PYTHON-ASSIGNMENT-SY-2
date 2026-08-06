@@ -20,3 +20,6 @@ class Payment_context:
 
     def pay(self, amount):
         self.strategy.pay(amount)
+
+menu = """Select Payment Method
+
