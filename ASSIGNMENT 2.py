@@ -88,14 +88,12 @@ def add_footer(func):
 def generate_report(report: Report) -> str:
     return str(report)
 
-
 if __name__ == "__main__":
     reports = [Report.student_template(author="Vishal Bharadwaj", student_name="Arka Bhattacharya", roll_no=15, cgpa=8.29),
                Report.employee_template(author="Vishal Bharadwaj", employee_name="Dharmendra Pradhan", department="Engineering", salary=75000),
                Report.sales_template(author="Vishal Bharadwaj", product="Laptop", quantity=12, revenue=960000),
                Report.attendance_template(author="Vishal Bharadwaj", student_name="Arka Bhattacharya", total_classes=60, attended=54, percentage="90%"),
-               Report.inventory_template(author="Vishal Bharadwaj", item_name="Wireless Mouse", quantity_in_stock=230, unit_price=450)
-               ]
+               Report.inventory_template(author="Vishal Bharadwaj", item_name="Wireless Mouse", quantity_in_stock=230, unit_price=450)]
 
     for report in reports:
         print(generate_report(report))
