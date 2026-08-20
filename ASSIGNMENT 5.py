@@ -10,7 +10,6 @@ def lcs(X, Y):
                 dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])
     return dp[m][n]
   
-  
 X = input("Enter first sequence: ")
 Y = input("Enter second sequence: ")
 result = lcs(X, Y)
