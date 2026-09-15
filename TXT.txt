@@ -1,0 +1,5 @@
+Python is a programming language.
+I am learning Python.
+Python is used in machine learning.
+Java is another programming language.
+I enjoy programming.
