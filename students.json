@@ -1,0 +1,42 @@
+[
+    {
+        "roll_number": 15,
+        "name": "Arka Bhattacharya",
+        "branch": "SOC",
+        "total_marks": 267,
+        "percentage": 89.0,
+        "grade": "B"
+    },
+    {
+        "roll_number": 26,
+        "name": "Lakshay Soni",
+        "branch": "SOES",
+        "total_marks": 271,
+        "percentage": 90.33,
+        "grade": "A"
+    },
+    {
+        "roll_number": 43,
+        "name": "Lakshay Jain",
+        "branch": "SOC",
+        "total_marks": 270,
+        "percentage": 90.0,
+        "grade": "A"
+    },
+    {
+        "roll_number": 25,
+        "name": "Jay Nagda",
+        "branch": "SOC",
+        "total_marks": 279,
+        "percentage": 93.0,
+        "grade": "A"
+    },
+    {
+        "roll_number": 56,
+        "name": "Anant Sharan",
+        "branch": "SOES",
+        "total_marks": 268,
+        "percentage": 89.33,
+        "grade": "B"
+    }
+]
