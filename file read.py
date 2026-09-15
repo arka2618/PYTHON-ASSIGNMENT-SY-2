@@ -1,0 +1,5 @@
+f = open("file.txt", "r")
+print("Is file readable:", f.readable())
+content_read = f.read()
+print("File read: ", content_read)
+f.close()
