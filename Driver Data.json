@@ -1,0 +1,32 @@
+[
+    {
+        "driver_id": "UBR001",
+        "driver_name": "Anubhav Singh",
+        "mobile_number": 9876434567,
+        "cab_number": "PUN098",
+        "cab_type": "Sedan",
+        "experience": 5,
+        "rating": 4.3,
+        "availability": "No"
+    },
+    {
+        "driver_id": "UBR002",
+        "driver_name": "Anurag Thakur",
+        "mobile_number": 9834589076,
+        "cab_number": "PUN901",
+        "cab_type": "SUV",
+        "experience": 7,
+        "rating": 4.5,
+        "availability": "No"
+    },
+    {
+        "driver_id": "UBR003",
+        "driver_name": "Narendra Modi",
+        "mobile_number": 9834510876,
+        "cab_number": "GUT231",
+        "cab_type": "Hyundai",
+        "experience": 6,
+        "rating": 4.7,
+        "availability": "Yes"
+    }
+]
